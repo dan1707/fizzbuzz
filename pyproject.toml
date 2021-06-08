@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fizzbuzz"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Ritter <head@daniel-ritter.biz>"]
+
+[tool.poetry.scripts]
+fizzbuzz = "fizzbuzz.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
